@@ -1,47 +1,22 @@
 {
-  "name": "proyectobackendcoderhousejaviercaballero",
+  "name": "task-list",
   "version": "1.0.0",
-  "description": "Proyecto BackEnd Javier Caballero",
-  "main": "index.js",
-  "type": "module",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
-    "test": "mocha src/test/supertest.test.js"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
   },
-  "author": "Javier Caballero",
-  "license": "ISC",
   "dependencies": {
-    "@faker-js/faker": "^8.1.0",
-    "bcrypt": "^5.1.1",
-    "connect-mongo": "^5.0.0",
-    "cookie-parser": "^1.4.6",
-    "cookieparser": "^0.1.0",
-    "crypto": "^1.0.1",
-    "date-fns": "^2.30.0",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "express-handlebars": "^7.1.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^7.6.1",
-    "mongoose-paginate-v2": "^1.7.4",
-    "multer": "^1.4.5-lts.1",
-    "nodemailer": "^6.9.6",
-    "passport": "^0.6.0",
-    "passport-github": "^1.1.0",
-    "passport-github2": "^0.1.12",
-    "passport-jwt": "^4.0.1",
-    "passport-local": "^1.0.0",
-    "path": "^0.12.7",
-    "socket.io": "^4.7.2",
-    "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.0",
-    "uuid": "^9.0.1",
-    "winston": "^3.11.0"
+    "expo": "~49.0.15",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0",
+    "react-native": "0.72.6",
+    "react-native-bouncy-checkbox": "^3.0.7"
   },
   "devDependencies": {
-    "chai": "^4.3.10",
-    "mocha": "^10.2.0",
-    "supertest": "^6.3.3"
-  }
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
 }
